@@ -1,27 +1,52 @@
-# Trinta
+# Doctor Appointment Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+This project is an Angular application for managing doctor appointments. It allows users (patients) to book appointments with doctors, view available doctors, and manage their appointments. Doctors can view their schedules and patient details, while the admin can manage doctors and patient information.
 
-## Development server
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Patient Registration and Login
+- Browse and Search Doctors
+- Book Appointments
+- View Appointment History
+- Doctors can view upcoming appointments
+- Admin can manage doctors and patients
 
-## Code scaffolding
+## Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: 17.2.2
+- **Node.js**: 18.x.x (or higher)
+- **TypeScript**: 5.x.x
+- **Angular CLI**: 17.2.2
+- **CSS/SCSS**: For styling
+- **Backend API**: (to be integrated with your backend service, e.g., Express, Spring Boot)
+- **Database**: (Optional, for integration with the backend, e.g., MySQL, MongoDB)
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run this application locally, follow these steps:
 
-## Running unit tests
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ikramdhib/doctorAppointmentSystemFullApp
+2.**Install** :
+      ```bash
+      
+      npm install
+       npm install -g @angular/cli@17.2.2
+3.**Configure environment**: 
+       ```bash
+       
+            export const environment = {
+              production: false,
+              apiUrl: 'http://localhost:3000/api'
+            };
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## running-the-application
+Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+  ```bash
+    ng serve -o
