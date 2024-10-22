@@ -43,7 +43,7 @@ To run this application locally, follow these steps:
        
             export const environment = {
               production: false,
-              apiUrl: 'http://localhost:3000/api'
+              apiUrl: 'http://localhost:5000/**'
             };
 
 ## running-the-application
