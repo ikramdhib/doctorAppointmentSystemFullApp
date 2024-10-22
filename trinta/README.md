@@ -23,8 +23,8 @@ This project is an Angular application for managing doctor appointments. It allo
 - **TypeScript**: 5.x.x
 - **Angular CLI**: 17.2.2
 - **CSS/SCSS**: For styling
-- **Backend API**: (to be integrated with your backend service, e.g., Express, Spring Boot)
-- **Database**: (Optional, for integration with the backend, e.g., MySQL, MongoDB)
+- **Backend API**: Express
+- **Database**: MongoDB
 
 ## Installation
 
